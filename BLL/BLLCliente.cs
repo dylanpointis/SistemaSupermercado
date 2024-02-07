@@ -19,6 +19,7 @@ namespace BLL
             dal.EjecutarComando($"delete from Clientes where id_cliente = {id}");
         }
 
+        //metodo proc almacenado registrar cliente
         public void RegistrarCliente(Cliente cli)
         {
             SqlParameter[] parametros = new SqlParameter[]
