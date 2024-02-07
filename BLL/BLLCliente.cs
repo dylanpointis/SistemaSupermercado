@@ -12,7 +12,6 @@ namespace BLL
 {
     public class BLLCliente
     {
-
         DalConexion dal = new DalConexion();
 
         public void BajaCliente(int id)
